@@ -1,0 +1,55 @@
+/* File Upload Button Styles */
+.file-input {
+    background-color: rgba(40, 25, 35, 0.9);
+    color: #ffffff;
+    border: 2px solid rgba(255, 215, 100, 0.7);
+    border-radius: 25px;
+    padding: 6px 12px;
+    font-family: myFont;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 187px;
+    text-align: center;
+}
+
+.file-input:hover {
+    background-color: rgba(80, 40, 60, 0.95);
+    border-color: rgba(255, 215, 100, 1);
+    transform: translateY(-1px) scale(1.01);
+}
+
+.file-input:not(:hover) {
+    background-color: rgba(40, 25, 35, 0.9);
+    border-color: rgba(255, 215, 100, 0.7);
+    transform: translateY(0px) scale(1);
+}
+
+/* Microphone Toggle Button Styles */
+.mic-toggle-button {
+    background-color: rgba(60, 45, 55, 0.9);
+    color: #fff;
+    border: 2px solid #ffd764;
+    border-radius: 50%;
+    padding: 0px;
+    font-family: myFont;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mic-toggle-button.active {
+    background-color: rgba(255, 150, 150, 0.9);
+}
+
+.mic-toggle-button:not(.active) {
+    background-color: rgba(60, 45, 55, 0.9);
+}
+
+/* Volume Slider Styles */
+.volume-slider {
+    width: 150px;
+}
